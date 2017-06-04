@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxWidth="760.0" minWidth="760.0" prefHeight="560.0" prefWidth="760.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.InterfazAdminController">
+   <children>
+      <Label layoutX="32.0" layoutY="59.0" prefHeight="183.0" prefWidth="180.0" styleClass="Titulos" />
+      <Label alignment="CENTER_RIGHT" layoutY="266.0" prefHeight="30.0" prefWidth="264.0" styleClass="senaladores" stylesheets="@application.css" text="Informacion " textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="266.0">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="95.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER" prefHeight="30.0" prefWidth="796.0" styleClass="Titulos" text="ADMINISTRADOR" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-36.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Century Gothic Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="38.0" layoutY="66.0" prefHeight="169.0" prefWidth="168.0" styleClass="senaladores" text="FOTOGRAFIA" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="169.0" fitWidth="168.0" layoutX="38.0" layoutY="66.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="66.0" />
+      <Label fx:id="lblInfo" layoutX="19.0" layoutY="302.0" prefHeight="97.0" prefWidth="243.0" styleClass="fontGris" textFill="#464343" />
+      <Label fx:id="lblPermisos" layoutX="19.0" layoutY="449.0" prefHeight="97.0" prefWidth="243.0" textFill="#464343" />
+      <Label alignment="CENTER_RIGHT" layoutY="411.0" prefHeight="30.0" prefWidth="264.0" styleClass="senaladores" stylesheets="@application.css" text="Permisos" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="411.0">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="110.0" />
+         </padding>
+      </Label>
+      <ComboBox layoutX="299.0" layoutY="103.0" prefHeight="25.0" prefWidth="438.0" styleClass="senaladores" />
+      <Button layoutX="299.0" layoutY="142.0" mnemonicParsing="false" onAction="#imprimir" prefHeight="23.0" prefWidth="116.0" styleClass="Titulos" text="Agregar" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="434.0" layoutY="142.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="116.0" styleClass="Titulos" text="Editar" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="567.0" layoutY="142.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="116.0" styleClass="Titulos" text="Eliminar" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <TextField layoutX="299.0" layoutY="234.0" prefHeight="25.0" prefWidth="340.0" />
+      <Button layoutX="299.0" layoutY="270.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="116.0" styleClass="Titulos" text="Buscar" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="12.0" />
+         </font>
+      </Button>
+      <Label layoutX="299.0" layoutY="59.0" prefHeight="30.0" prefWidth="230.0" text="Area de edicion" textFill="#464343">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+      </Label>
+      <Separator layoutX="301.0" layoutY="181.0" prefHeight="5.0" prefWidth="383.0" />
+      <Label layoutX="299.0" layoutY="197.0" prefHeight="30.0" prefWidth="230.0" text="Busqueda de personas" textFill="#464343">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+      </Label>
+      <TableView layoutX="299.0" layoutY="308.0" prefHeight="236.0" prefWidth="438.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="Nombre" />
+            <TableColumn prefWidth="69.0" text="Apellido" />
+            <TableColumn prefWidth="81.0" text="Edad" />
+            <TableColumn prefWidth="75.0" text="Nº Identidad" />
+            <TableColumn prefWidth="75.0" text="Ocupacion" />
+            <TableColumn prefWidth="75.0" text="Antecedentes" />
+         </columns>
+      </TableView>
+      <ImageView fitHeight="30.0" fitWidth="70.0" layoutX="288.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="288.0" AnchorPane.topAnchor="-1.0">
+         <image>
+            <Image url="@../Recursos/SIP_logo.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

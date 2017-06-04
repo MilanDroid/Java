@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="698.0" maxWidth="850.0" minHeight="370.0" minWidth="665.0" prefHeight="645.0" prefWidth="665.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="420.0" layoutY="113.0" prefHeight="185.0" prefWidth="182.0" styleClass="Titulos" />
+      <Label alignment="CENTER" layoutX="427.0" layoutY="120.0" prefHeight="169.0" prefWidth="168.0" styleClass="senaladores" text="FOTOGRAFIA" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutY="-1.0" prefHeight="30.0" prefWidth="728.0" styleClass="Titulos" stylesheets="@application.css" text="AGREGAR USUARIO" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="30.0" fitWidth="70.0" layoutX="249.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Recursos/SIP_logo.png" />
+         </image>
+      </ImageView>
+      <TextField layoutX="126.0" layoutY="113.0" prefHeight="25.0" prefWidth="246.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="113.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="113.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Usuario :" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="113.0">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="148.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Contraseña :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <PasswordField layoutX="126.0" layoutY="148.0" prefHeight="25.0" prefWidth="246.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="148.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="183.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Nombre :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <TextField layoutX="126.0" layoutY="183.0" prefHeight="25.0" prefWidth="246.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="183.0" />
+      <TextField layoutX="126.0" layoutY="221.0" prefHeight="25.0" prefWidth="246.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="221.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="221.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Apellido :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="256.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Genero :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <ComboBox layoutX="126.0" layoutY="256.0" prefHeight="25.0" prefWidth="246.0" AnchorPane.leftAnchor="126.0" AnchorPane.topAnchor="256.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="289.0" prefHeight="25.0" prefWidth="115.0" styleClass="senaladores" text="Identidad :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <TextField layoutX="126.0" layoutY="289.0" prefHeight="25.0" prefWidth="246.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="53.0" prefHeight="30.0" prefWidth="230.0" text="Datos personales " textFill="#464343">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets right="65.0" />
+         </padding>
+      </Label>
+      <ImageView fitHeight="170.0" fitWidth="170.0" layoutX="426.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER_RIGHT" layoutX="333.0" layoutY="53.0" prefHeight="30.0" prefWidth="327.0" text="Fotografia    (170X 170)" textFill="#464343">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets right="65.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="327.0" prefHeight="25.0" prefWidth="180.0" styleClass="senaladores" text="Fecha de nacimiento  :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <DatePicker layoutX="198.0" layoutY="327.0" />
+      <Button layoutX="420.0" layoutY="305.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="102.0" styleClass="Titulos" text="Abir " textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER_RIGHT" layoutX="-32.0" layoutY="392.0" prefHeight="30.0" prefWidth="230.0" text="Descripcion" textFill="#464343">
+         <font>
+            <Font name="Century Gothic Bold" size="16.0" />
+         </font>
+         <padding>
+            <Insets right="65.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="452.0" prefHeight="25.0" prefWidth="131.0" styleClass="senaladores" text="Color de ojos :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <PasswordField layoutX="142.0" layoutY="452.0" prefHeight="25.0" prefWidth="230.0" />
+      <PasswordField layoutX="142.0" layoutY="487.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="487.0" prefHeight="25.0" prefWidth="131.0" styleClass="senaladores" text="Color de cabello :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutY="520.0" prefHeight="25.0" prefWidth="131.0" styleClass="senaladores" text="Color de piel :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <ComboBox layoutX="142.0" layoutY="520.0" prefHeight="25.0" prefWidth="230.0" />
+      <Label alignment="CENTER_RIGHT" layoutY="556.0" prefHeight="25.0" prefWidth="131.0" styleClass="senaladores" text="Estatura : " textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="20.0" />
+         </padding>
+      </Label>
+      <PasswordField layoutX="142.0" layoutY="556.0" prefHeight="25.0" prefWidth="60.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="421.0" layoutY="410.0" prefHeight="25.0" prefWidth="180.0" styleClass="senaladores" text="Otros detalles :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic Bold" size="12.0" />
+         </font>
+         <padding>
+            <Insets right="50.0" />
+         </padding>
+      </Label>
+      <TextArea layoutX="420.0" layoutY="451.0" prefHeight="131.0" prefWidth="215.0" />
+      <Button layoutX="-12.0" layoutY="603.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="230.0" styleClass="Titulos" text="Guardar" textFill="WHITE" />
+      <Button layoutX="449.0" layoutY="603.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="230.0" styleClass="Titulos" text="Volver" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="220.0" maxWidth="480.0" minHeight="220.0" minWidth="480.0" prefHeight="220.0" prefWidth="480.0" styleClass="backGround" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SipController">
+   <children>
+      <ImageView layoutX="186.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../Recursos/SIP_logo.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER_RIGHT" layoutX="-17.0" layoutY="90.0" prefHeight="18.0" prefWidth="116.0" styleClass="Titulos" text="Usuario :" textFill="WHITE" AnchorPane.leftAnchor="-17.0" AnchorPane.topAnchor="90.0">
+         <padding>
+            <Insets left="6.0" right="8.0" />
+         </padding>
+         <font>
+            <Font name="Century Gothic" size="11.0" />
+         </font></Label>
+      <TextField fx:id="txtUsuario" layoutX="108.0" layoutY="86.0" prefHeight="25.0" prefWidth="350.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="86.0" />
+      <HBox layoutX="-25.0" layoutY="172.0" spacing="40.0" AnchorPane.topAnchor="172.0">
+         <children>
+            <Button alignment="CENTER_RIGHT" layoutX="190.0" layoutY="189.0" maxHeight="25.0" maxWidth="250.0" minHeight="25.0" minWidth="240.0" mnemonicParsing="false" onAction="#comprobarLogin" prefHeight="25.0" prefWidth="250.0" styleClass="Titulos" text="Entrar" textFill="WHITE">
+               <padding>
+                  <Insets right="50.0" />
+               </padding></Button>
+            <Button fx:id="btnSalir" alignment="BASELINE_LEFT" layoutX="236.0" layoutY="189.0" maxHeight="25.0" maxWidth="240.0" minHeight="25.0" minWidth="240.0" mnemonicParsing="false" onAction="#salir" onMouseDragEntered="#btnDetecion" onMouseDragOver="#btnDetecion" prefHeight="25.0" prefWidth="240.0" styleClass="Titulos" text="Salir" textFill="WHITE">
+               <padding>
+                  <Insets left="50.0" />
+               </padding></Button>
+         </children>
+      </HBox>
+      <Label alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="-17.0" layoutY="127.0" prefHeight="18.0" prefWidth="116.0" styleClass="Titulos" text="Contraseña :" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="11.0" />
+         </font>
+         <padding>
+            <Insets right="8.0" />
+         </padding>
+      </Label>
+      <PasswordField fx:id="txtContrasena" layoutX="108.0" layoutY="123.0" prefHeight="25.0" prefWidth="358.0" AnchorPane.leftAnchor="108.0" AnchorPane.rightAnchor="24.0" AnchorPane.topAnchor="123.0" />
+   </children>
+</AnchorPane>

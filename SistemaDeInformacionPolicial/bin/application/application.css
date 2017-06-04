@@ -1,0 +1,30 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+	.backGround{
+		-fx-background-image:url("../Recursos/Fire.png");
+		-fx-background-color : #414141;
+		-fx-background-size:480 250;
+		}
+
+	.Titulos{
+		-fx-background-color: #1d5c80;
+		}
+
+	.btnSeleccion{
+		-fx-background-color:#063753;
+		}
+
+	.NoAutorizado{
+		-fx-background-image:url("../Recursos/Stop.jpg");
+		-fx-background-position: center center;
+		-fx-background-size:390 240;
+	}
+
+	.error{
+		-fx-background-image:url("../Recursos/error.png");
+	}
+
+	.senaladores{
+		-fx-background-color:#4a4848;
+	}
+
